@@ -12,7 +12,7 @@ export const attendees = Array
                 .fullName(),
             email: faker
                 .internet
-                .email(),
+                .email().toLocaleLowerCase(),
             createdAt: faker
                 .date
                 .recent({days: 30}),
