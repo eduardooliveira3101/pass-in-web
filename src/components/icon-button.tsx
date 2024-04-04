@@ -13,7 +13,6 @@ export function IconButton ({transparent, ...props}: IconButtonProps) {
       transparent? 'bg-black/20' : 'bg-white/10',
       props.disabled ? 'opacity-50' : null
     )} 
-   
     />
   )
 }
